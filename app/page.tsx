@@ -10,7 +10,6 @@ import { AIFixSection } from "@/components/AIFixSection";
 import { HowItWorks } from "@/components/HowItWorks";
 import { StatsSection } from "@/components/StatsSection";
 import { CICDSection } from "@/components/CICDSection";
-import { PricingSection } from "@/components/PricingSection";
 import { Testimonials } from "@/components/Testimonials";
 import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
@@ -32,9 +31,7 @@ export default function SeoAgentXLanding() {
         <HowItWorks />
         <StatsSection />
         <CICDSection />
-        <PricingSection />
         <Testimonials />
-        <CTASection />
       </main>
       <Footer />
     </>
