@@ -58,11 +58,24 @@ export function Navbar() {
             ))}
           </ul>
           <div className="hidden md:flex items-center gap-3">
-            <a href="#" className="btn-outline text-sm px-4 py-2">
-              Sign in
-            </a>
-            <a href="#" className="btn-amber text-sm px-4 py-2">
-              Audit your site free
+            <a
+              href="https://github.com/Anilbal/seo-agent-x-website"
+              className="btn-outline text-sm px-4 py-2 flex items-center gap-2"
+              target="_blank"
+            >
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              GitHub
             </a>
           </div>
           <button
@@ -102,13 +115,23 @@ export function Navbar() {
             ))}
             <div className="flex flex-col gap-3 pt-4 border-t border-white/5">
               <a
-                href="#"
-                className="btn-outline text-sm px-4 py-2.5 text-center"
+                href="https://github.com/Anilbal/seo-agent-x-website"
+                className="btn-outline text-sm px-4 py-2.5 text-center flex items-center justify-center gap-2"
+                target="_blank"
               >
-                Sign in
-              </a>
-              <a href="#" className="btn-amber text-sm px-4 py-2.5 text-center">
-                Audit your site free
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                GitHub
               </a>
             </div>
           </div>
