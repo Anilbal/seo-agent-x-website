@@ -7,9 +7,9 @@ export function PricingSection() {
   const [annual, setAnnual] = useState(false);
   return (
     <section id="pricing" className="py-28 max-w-7xl mx-auto px-6 relative">
-      <div className="orb w-[500px] h-[400px] bg-amber-500 opacity-[0.04] top-0 left-0" />
+      <div className="orb w-125 h-100 bg-amber-500 opacity-[0.04] top-0 left-0" />
       <div className="text-center max-w-xl mx-auto mb-14 relative z-10">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-amber-500/20 text-amber-400 text-xs font-jakarta mb-5 bg-amber-500/[0.04]">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-amber-500/20 text-amber-400 text-xs font-jakarta mb-5 bg-amber-500/4">
           Pricing
         </div>
         <h2
@@ -55,7 +55,7 @@ export function PricingSection() {
           return (
             <div
               key={i}
-              className={`glass rounded-2xl p-7 flex flex-col gap-6 border ${plan.highlight ? "plan-highlight" : "border-white/[0.06] glass-hover"}`}
+              className={`glass rounded-2xl p-7 flex flex-col gap-6 border ${plan.highlight ? "plan-highlight" : "border-white/6 glass-hover"}`}
             >
               {plan.highlight && (
                 <div className="text-center -mt-2">
@@ -92,7 +92,7 @@ export function PricingSection() {
                     className="flex items-start gap-2.5 text-sm text-[#9898aa] font-jakarta"
                   >
                     <svg
-                      className="mt-0.5 flex-shrink-0"
+                      className="mt-0.5 shrink-0"
                       width="14"
                       height="14"
                       viewBox="0 0 14 14"
