@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Seo agent x — SEO & Accessibility SaaS for Frontend Developers
 
-## Getting Started
+A purpose-built SaaS landing page for an SEO + Accessibility audit platform, built with **Next.js 15**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+## Brand
+**Seo agent x** — "Illuminate every blind spot in your web."
+Amber (#f59e0b) + Violet (#8b5cf6) accent on deep charcoal (#09090f)
 
+## Fonts
+- **Bricolage Grotesque** — bold display / headings
+- **Plus Jakarta Sans** — body copy
+- **IBM Plex Mono** — code snippets / terminal
+
+## Sections
+1. Scroll progress bar (amber → violet gradient)
+2. Sticky Navbar — blurs on scroll
+3. **Hero** — live URL scan demo with animated steps + score rings
+4. Logo marquee (Next.js, Astro, SvelteKit…)
+5. **Audit Dashboard Preview** — tabbed panel (SEO / A11y / Core Web Vitals)
+6. **Features grid** — 8 cards (SEO, WCAG 2.2, CWV, Color Contrast, Structured Data, OG Preview, Keyboard Nav, CI/CD)
+7. **AI Fix Hints** — 3 interactive issues with before/after code diffs
+8. How it works — 4-step flow
+9. Stats — 3.1M pages, 98% accuracy, 8s avg audit, 47K devs
+10. **CI/CD Integration** — GitHub Actions YAML + PR check preview
+11. Pricing — monthly/annual toggle, 3-tier cards
+12. Testimonials
+13. CTA with inline scan input
+14. Footer — 5-column
+
+## Get Started
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open http://localhost:3000
