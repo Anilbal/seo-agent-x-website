@@ -47,7 +47,7 @@ export function HeroSection() {
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
         <div className="fu inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full glass text-xs font-jakarta text-amber-400 mb-8 border border-amber-500/20">
           <span className="w-1.5 h-1.5 rounded-full bg-amber-400 pulse inline-block" />
-          WCAG 2.2 now supported — Level A, AA &amp; AAA
+          Boost website rankings with developer-first SEO.
         </div>
         <h1
           className="fu d1 font-bricolage font-extrabold tracking-tight text-white leading-[1.04] mb-6"
@@ -63,9 +63,10 @@ export function HeroSection() {
           className="fu d2 font-jakarta text-[#64647a] max-w-2xl mx-auto mb-10 leading-relaxed"
           style={{ fontSize: "clamp(1rem,2vw,1.175rem)" }}
         >
-          Seo agent x gives frontend developers a single platform for SEO health, WCAG
-          2.2 compliance, Core Web Vitals, color contrast, structured data, and
-          keyboard accessibility — with AI-generated fix hints.
+          Seo agent x gives frontend developers a single platform for SEO
+          health, WCAG 2.2 compliance, Core Web Vitals, color contrast,
+          structured data, and keyboard accessibility — with AI-generated fix
+          hints.
         </p>
         <div className="fu d4 flex items-center justify-center gap-3 flex-wrap">
           <p className="text-sm text-[#64647a] font-jakarta">
