@@ -141,14 +141,7 @@ export const FEATURES = [
     title: "Keyboard Navigation Tester",
     desc: "Record full keyboard traversal flows. Detect focus traps, missing tab stops, and illogical focus order.",
     tag: "A11y",
-  },
-  {
-    icon: "🔄",
-    iconColor: "#f59e0b",
-    title: "CI/CD Integration",
-    desc: "Drop our GitHub Action into any pipeline. Fail builds when SEO score drops or WCAG errors are introduced.",
-    tag: "DevOps",
-  },
+  }
 ];
 
 export const HOW_IT_WORKS = [
