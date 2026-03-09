@@ -53,11 +53,11 @@ export function HeroSection() {
           className="fu d1 font-bricolage font-extrabold tracking-tight text-white leading-[1.04] mb-6"
           style={{ fontSize: "clamp(2.8rem,7vw,5.4rem)" }}
         >
-          Audit your site&apos;s
+          Scan your website.
           <br />
-          <span className="grad-amber">SEO &amp; accessibility</span>
+          <span className="grad-amber">Fix SEO & accessibility.</span>
           <br />
-          in 8 seconds.
+          in seconds, not hours.
         </h1>
         <p
           className="fu d2 font-jakarta text-[#64647a] max-w-2xl mx-auto mb-10 leading-relaxed"
