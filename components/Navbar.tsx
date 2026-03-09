@@ -6,13 +6,10 @@ import { NAV_LINKS } from "@/lib/data";
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
     const fn = () => {
       setScrolled(window.scrollY > 20);
-      const el = document.documentElement;
-      setProgress((window.scrollY / (el.scrollHeight - el.clientHeight)) * 100);
     };
     window.addEventListener("scroll", fn);
     return () => window.removeEventListener("scroll", fn);
@@ -20,18 +17,6 @@ export function Navbar() {
 
   return (
     <>
-      <div
-        style={{
-          position: "fixed",
-          top: 0,
-          left: 0,
-          height: 2,
-          background: "linear-gradient(90deg,#f59e0b,#8b5cf6)",
-          zIndex: 999,
-          width: `${progress}%`,
-          transition: "width 0.1s linear",
-        }}
-      />
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? "nav-glass" : "bg-transparent"}`}
       >
