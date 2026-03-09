@@ -84,7 +84,7 @@ body::after {
 }
 .btn-outline:hover { border-color: rgba(245,158,11,0.38); color: #f59e0b; background: rgba(245,158,11,0.05); }
 
-.nav-glass { background: rgba(9,9,15,0.72); backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255,255,255,0.05); }
+.nav-glass { background: rgba(9,9,15,0.72); backdrop-filter: blur(20px); }
 
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 .marquee-track { animation: marquee 32s linear infinite; display: flex; width: max-content; }
@@ -135,12 +135,6 @@ body::after {
   font-size: clamp(2.4rem, 5vw, 3.8rem);
   background: linear-gradient(135deg, #fff 20%, #f59e0b 100%);
   -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
-}
-
-#progress-bar {
-  position: fixed; top: 0; left: 0; height: 2px;
-  background: linear-gradient(90deg, #f59e0b, #8b5cf6);
-  z-index: 999; transition: width 0.1s linear;
 }
 
 .score-ring {
