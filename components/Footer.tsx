@@ -22,7 +22,7 @@ export function Footer() {
     Connect: ["Twitter / X", "GitHub", "Discord", "LinkedIn"],
   };
   return (
-    <footer className="border-t border-white/[0.05] py-16 max-w-7xl mx-auto px-6">
+    <footer className="border-t border-white/5 py-16 max-w-7xl mx-auto px-6">
       <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mb-14">
         <div className="col-span-2 md:col-span-1">
           <div className="flex items-center gap-2 mb-4">
