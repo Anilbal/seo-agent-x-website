@@ -30,8 +30,8 @@ export function Testimonials() {
             <blockquote className="text-[#9898aa] font-jakarta text-sm leading-relaxed flex-1">
               &ldquo;{t.quote}&rdquo;
             </blockquote>
-            <div className="flex items-center gap-3 pt-3 border-t border-white/[0.06]">
-              <div className="w-9 h-9 rounded-full border border-amber-500/25 bg-amber-500/10 flex items-center justify-center text-amber-400 font-bricolage font-bold text-xs flex-shrink-0">
+            <div className="flex items-center gap-3 pt-3 border-t border-white/6">
+              <div className="w-9 h-9 rounded-full border border-amber-500/25 bg-amber-500/10 flex items-center justify-center text-amber-400 font-bricolage font-bold text-xs shrink-0">
                 {t.avatar}
               </div>
               <div>
