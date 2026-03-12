@@ -161,13 +161,13 @@ export const HOW_IT_WORKS = [
   },
   {
     step: "03",
-    title: "Fix with AI hints",
-    desc: "Every issue ships with a plain-English explanation, a code snippet fix, and a link to the relevant spec.",
+    title: "View problems in your terminal",
+    desc: "See a clear list of SEO issues directly in your CLI. Problems are prioritised so you know exactly what to fix first.",
   },
   {
     step: "04",
-    title: "Monitor & alert",
-    desc: "Schedule recurring audits. We watch your scores over time and alert you the moment a deploy breaks something.",
+    title: "Fix with AI hints",
+    desc: "Every issue ships with a plain-English explanation, a code snippet fix, and a link to the relevant spec.",
   },
 ];
 
