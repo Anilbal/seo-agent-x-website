@@ -50,7 +50,7 @@ export function Footer() {
             </span>
           </div>
           <p className="text-[#64647a] font-jakarta text-xs leading-relaxed mb-5">
-            SEO &amp; accessibility audits
+            SEO &amp; accessibility check with CLI
             <br />
             for frontend developers.
           </p>
