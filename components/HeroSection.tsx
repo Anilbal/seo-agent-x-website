@@ -3,43 +3,9 @@
 import { useState, useCallback } from "react";
 
 export function HeroSection() {
-  const [url, setUrl] = useState("");
-  const [scanning, setScanning] = useState(false);
-  const [scanned, setScanned] = useState(false);
-  const [step, setStep] = useState(0);
   const [copied, setCopied] = useState(false);
 
   const CMD = "npm install -g seo-agent-x";
-
-  const STEPS = [
-    "Launching headless Chromium…",
-    "Crawling DOM & parsing <head>…",
-    "Running 140 SEO checks…",
-    "Running 68 WCAG 2.2 checks…",
-    "Measuring Core Web Vitals…",
-    "Generating AI fix hints…",
-    "Report ready ✓",
-  ];
-
-  const run = useCallback(() => {
-    if (scanning) return;
-    if (!url) setUrl("https://your-site.com");
-    setScanning(true);
-    setScanned(false);
-    setStep(0);
-    let i = 0;
-    const t = setInterval(() => {
-      i++;
-      setStep(i);
-      if (i >= STEPS.length - 1) {
-        clearInterval(t);
-        setTimeout(() => {
-          setScanning(false);
-          setScanned(true);
-        }, 400);
-      }
-    }, 420);
-  }, [url, scanning]);
 
   const handleCopy = useCallback(() => {
     navigator.clipboard.writeText(CMD).then(() => {
