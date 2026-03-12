@@ -7,7 +7,7 @@ export function LogoBar() {
   return (
     <section className="py-12 overflow-hidden">
       <div className="amber-rule opacity-20 mb-10" />
-      <p className="text-center text-[10px] tracking-[0.22em] uppercase text-[#3a3a52] font-jakarta mb-7">
+      <p className="text-center text-[10px] tracking-[0.22em] uppercase text-gray-400 font-jakarta mb-7">
         Works with your favourite stack
       </p>
       <div className="overflow-hidden">

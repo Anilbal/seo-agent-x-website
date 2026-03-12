@@ -9,16 +9,19 @@ export const NAV_LINKS = [
 ];
 
 export const TOOL_LOGOS = [
-  "Next.js",
-  "Nuxt",
-  "Astro",
-  "SvelteKit",
-  "Remix",
-  "Gatsby",
-  "Vite",
-  "Netlify",
-  "Vercel",
-  "Cloudflare Pages",
+  "HTML",
+  "REACT",
+  "Javascript",
+  "HTML",
+  "REACT",
+  "Javascript",
+  "HTML",
+  "REACT",
+  "Javascript",
+  "HTML",
+  "REACT",
+  "Javascript",
+  "REACT",
 ];
 
 export const SEO_CHECKS = [
@@ -141,7 +144,7 @@ export const FEATURES = [
     title: "Keyboard Navigation Tester",
     desc: "Record full keyboard traversal flows. Detect focus traps, missing tab stops, and illogical focus order.",
     tag: "A11y",
-  }
+  },
 ];
 
 export const HOW_IT_WORKS = [
