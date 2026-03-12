@@ -11,7 +11,6 @@ import { HowItWorks } from "@/components/HowItWorks";
 import { StatsSection } from "@/components/StatsSection";
 import { CICDSection } from "@/components/CICDSection";
 import { Testimonials } from "@/components/Testimonials";
-import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
 
 export default function SeoAgentXLanding() {
