@@ -13,7 +13,7 @@ export function HowItWorks() {
           className="font-bricolage font-extrabold text-white"
           style={{ fontSize: "clamp(2rem,4vw,3rem)" }}
         >
-          From URL to report in under 8 seconds.
+          Install globally to use it anywhere.
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 relative">

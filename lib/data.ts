@@ -147,13 +147,14 @@ export const FEATURES = [
 export const HOW_IT_WORKS = [
   {
     step: "01",
-    title: "Enter your URL",
-    desc: "Paste any public URL or connect via GitHub. Seo agent x crawls using a real Chromium instance — no server-side-only analysis.",
+    title: "Install the package",
+    desc: "Add Seo Agent X to your project in seconds using npx or your preferred package manager.",
   },
   {
     step: "02",
-    title: "Instant audit report",
-    desc: "Get a scored, prioritised report in under 8 seconds. Issues ranked by impact so you fix what matters most first.",
+    title: "Run the CLI",
+    desc: "Run the audit directly from your project root. Seo Agent X launches a real Chromium instance to crawl your site just like a browser.",
+    code: "npx seo-agent-x",
   },
   {
     step: "03",
