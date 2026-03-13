@@ -99,7 +99,7 @@ export const CWV = [
 
 export const FEATURES = [
   {
-    icon: "🤖",
+    icon: "⚡",
     iconColor: "#f59e0b",
     title: "Automated SEO Scanning",
     desc: "SEO Agent X scans your application or website and automatically detects common SEO issues affecting search visibility.",
