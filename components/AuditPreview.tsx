@@ -14,8 +14,8 @@ export function AuditPreview() {
     <section className="py-24 max-w-7xl mx-auto px-6">
       <div className="grid lg:grid-cols-2 gap-14 items-center">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-amber-500/20 text-amber-400 text-xs font-jakarta mb-5 bg-amber-500/[0.04]">
-            Audit Dashboard
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-amber-500/20 text-amber-400 text-xs font-jakarta mb-5 bg-amber-500/4">
+            CLI Dashboard
           </div>
           <h2
             className="font-bricolage font-extrabold text-white leading-tight mb-5"
@@ -26,15 +26,15 @@ export function AuditPreview() {
             <span className="grad-amber">ranked by impact.</span>
           </h2>
           <p className="text-[#64647a] font-jakarta text-base leading-relaxed mb-8">
-            Unlike generic Lighthouse runs, Seo agent x audits your full DOM — not
-            just the initial HTML response. Dynamic content, lazy-loaded images,
-            and client-side routes are all caught.
+            SEO Agent X is an automated SEO assistant for developers that scans
+            projects, detects SEO problems, and suggests or applies fixes to
+            improve search engine performance.
           </p>
           <ul className="space-y-4">
             {[
               {
                 c: "#10b981",
-                l: "208 checks across SEO, WCAG 2.2 and performance",
+                l: "Checks SEO across app, monitor, and help to fix.",
               },
               {
                 c: "#f59e0b",
@@ -48,7 +48,7 @@ export function AuditPreview() {
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-3">
                 <span
-                  className="mt-1 w-4 h-4 rounded flex-shrink-0 flex items-center justify-center"
+                  className="mt-1 w-4 h-4 rounded shrink-0 flex items-center justify-center"
                   style={{
                     background: `${item.c}18`,
                     border: `1px solid ${item.c}40`,
@@ -118,7 +118,7 @@ export function AuditPreview() {
                 </div>
               ))}
             </div>
-            <div className="flex gap-1 border-b border-white/[0.06]">
+            <div className="flex gap-1 border-b border-white/6">
               {(["seo", "a11y", "cwv"] as const).map((t) => (
                 <button
                   key={t}
@@ -152,14 +152,14 @@ export function AuditPreview() {
               ? checks.map((c, i) => (
                   <div
                     key={i}
-                    className="flex items-start gap-2.5 p-2.5 rounded-xl hover:bg-white/[0.025] transition-colors"
+                    className="flex items-start gap-2.5 p-2.5 rounded-xl hover:bg-white/2.5 transition-colors"
                   >
                     <StatusIcon status={c.status} />
                     <span className="text-xs font-jakarta text-[#9898aa] flex-1">
                       {c.label}
                     </span>
                     <span
-                      className={`text-[9px] font-bricolage font-bold px-2 py-0.5 rounded-full flex-shrink-0 ${c.status === "pass" ? "pill-pass" : c.status === "warn" ? "pill-warn" : "pill-err"}`}
+                      className={`text-[9px] font-bricolage font-bold px-2 py-0.5 rounded-full shrink-0 ${c.status === "pass" ? "pill-pass" : c.status === "warn" ? "pill-warn" : "pill-err"}`}
                     >
                       {c.status}
                     </span>
