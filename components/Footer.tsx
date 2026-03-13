@@ -1,26 +1,47 @@
 "use client";
 
 export function Footer() {
-  const cols: Record<string, string[]> = {
-    Product: [
-      "SEO Audit",
-      "Accessibility Checker",
-      "Core Web Vitals",
-      "Color Contrast",
-      "Structured Data",
-      "CI/CD Action",
-    ],
-    Resources: [
-      "Docs",
-      "API Reference",
-      "Changelog",
-      "Blog",
-      "WCAG Guide",
-      "SEO Checklist",
-    ],
-    Company: ["About", "Features", "Privacy", "Terms"],
-    Social: ["GitHub", "Discord", "LinkedIn"],
-  };
+  const sections = [
+    {
+      title: "Product",
+      links: [
+        { name: "SEO Audit", href: "#" },
+        { name: "Accessibility Checker", href: "#" },
+        { name: "Core Web Vitals", href: "#" },
+        { name: "Color Contrast", href: "#" },
+        { name: "Structured Data", href: "#" },
+        { name: "CI/CD Action", href: "#" },
+      ],
+    },
+    {
+      title: "Resources",
+      links: [
+        { name: "Docs", href: "#" },
+        { name: "API Reference", href: "#" },
+        { name: "Changelog", href: "#" },
+        { name: "Blog", href: "#" },
+        { name: "WCAG Guide", href: "#" },
+        { name: "SEO Checklist", href: "#" },
+      ],
+    },
+    {
+      title: "Company",
+      links: [
+        { name: "About", href: "/about" },
+        { name: "Features", href: "/features" },
+        { name: "Privacy", href: "/privacy" },
+        { name: "Terms", href: "/terms" },
+      ],
+    },
+    {
+      title: "Social",
+      links: [
+        { name: "GitHub", href: "https://github.com/Anilbal" },
+        { name: "Discord", href: "https://discord.gg/seoagentx" },
+        { name: "LinkedIn", href: "https://www.linkedin.com/in/anil-bal/" },
+      ],
+    },
+  ];
   return (
     <footer className="border-t border-white/5 py-16 max-w-7xl mx-auto px-6">
       <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mb-14">
@@ -58,19 +79,19 @@ export function Footer() {
             © 2025 Seo agent x, Inc.
           </p>
         </div>
-        {Object.entries(cols).map(([heading, links]) => (
-          <div key={heading}>
+        {sections.map((section) => (
+          <div key={section.title}>
             <p className="font-bricolage font-bold text-white text-sm mb-4">
-              {heading}
+              {section.title}
             </p>
             <ul className="space-y-2.5">
-              {links.map((l) => (
-                <li key={l}>
+              {section.links.map((link) => (
+                <li key={link.name}>
                   <a
-                    href="#"
+                    href={link.href}
                     className="text-[#64647a] hover:text-[#9898aa] font-jakarta text-sm transition-colors"
                   >
-                    {l}
+                    {link.name}
                   </a>
                 </li>
               ))}
