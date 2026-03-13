@@ -6,8 +6,10 @@ export function FeaturesSection() {
   return (
     <section id="features" className="py-24 max-w-7xl mx-auto px-6">
       <div className="text-center max-w-2xl mx-auto mb-16">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-amber-500/20 text-amber-400 text-x
-        s font-jakarta mb-5 bg-amber-500/4">
+        <div
+          className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-amber-500/20 text-amber-400 text-x
+        s font-jakarta mb-5 bg-amber-500/4"
+        >
           Full feature set
         </div>
         <h2
@@ -19,7 +21,8 @@ export function FeaturesSection() {
           <span className="grad-mixed">developers actually need.</span>
         </h2>
         <p className="text-[#64647a] font-jakarta text-lg">
-          208 automated checks. One report. Zero tab-switching.
+          Developer-focused SEO automation that scans, detects, and fixes SEO
+          issues.
         </p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
