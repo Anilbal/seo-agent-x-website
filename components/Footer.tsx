@@ -18,8 +18,8 @@ export function Footer() {
       "WCAG Guide",
       "SEO Checklist",
     ],
-    Company: ["About", "Careers", "Press", "Security", "Privacy", "Terms"],
-    Connect: ["Twitter / X", "GitHub", "Discord", "LinkedIn"],
+    Company: ["About", "Features", "Privacy", "Terms"],
+    Social: ["GitHub", "Discord", "LinkedIn"],
   };
   return (
     <footer className="border-t border-white/5 py-16 max-w-7xl mx-auto px-6">
